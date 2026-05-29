@@ -77,13 +77,29 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. 安装依赖
+### 3. 创建 Conda 环境（可选）
+
+如果你更喜欢使用 Conda，可以通过 `requirements.yaml` 创建环境：
+
+```bash
+conda env create -f requirements.yaml
+conda activate edgervc
+```
+
+如果环境已经存在，建议直接更新，而不是重新创建：
+
+```bash
+conda env update -f requirements.yaml --prune
+conda activate edgervc
+```
+
+### 4. 安装依赖
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. 环境变量配置
+### 5. 环境变量配置
 
 项目已包含 `.env` 文件，你可以根据需要修改其中的配置：
 
@@ -98,7 +114,7 @@ index_root=./assets/indices
 outside_index_root=./assets/outside_indices
 ```
 
-### 5. 准备模型文件
+### 6. 准备模型文件
 
 1. 在 `./assets/weights` 目录中放置RVC模型文件（.pth格式）
 2. 在 `./assets/indices` 目录中放置特征索引文件（.index格式）

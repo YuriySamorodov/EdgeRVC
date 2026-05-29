@@ -77,13 +77,29 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Install Dependencies
+### 3. Create a Conda Environment (Alternative)
+
+If you prefer Conda, create the environment from `requirements.yaml`:
+
+```bash
+conda env create -f requirements.yaml
+conda activate edgervc
+```
+
+If the environment already exists, update it in place instead of recreating it:
+
+```bash
+conda env update -f requirements.yaml --prune
+conda activate edgervc
+```
+
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Environment Variable Configuration
+### 5. Environment Variable Configuration
 
 The project already includes a `.env` file, you can modify the configuration as needed:
 
@@ -98,7 +114,7 @@ index_root=./assets/indices
 outside_index_root=./assets/outside_indices
 ```
 
-### 5. Prepare Model Files
+### 6. Prepare Model Files
 
 1. Place RVC model files (.pth format) in the `./assets/weights` directory
 2. Place feature index files (.index format) in the `./assets/indices` directory
