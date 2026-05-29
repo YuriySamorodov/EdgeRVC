@@ -1,0 +1,13 @@
+name: edgervc
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  # Runtime/system libs commonly needed by audio Python packages.
+  - ffmpeg
+  - libsndfile
+  - pip:
+      - -r requirements.txt
