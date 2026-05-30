@@ -123,7 +123,7 @@ outside_index_root=./assets/outside_indices
 
 RVC requires some other pre-models for inference and training.
 
-You can download these models from `https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main`.
+You can download these models from <https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main>.
 
 ### 1. Download assets
 
@@ -253,10 +253,10 @@ If you have any questions or suggestions, please contact us through GitHub Issue
 This project uses code and ideas from the following open-source projects:
 
 - **Edge TTS**
-  `https://github.com/rany2/edge-tts`
+  <https://github.com/rany2/edge-tts>
 
 - **Retrieval-based Voice Conversion (RVC)**
-  `https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI`
+  <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
 
 Sincere thanks to the developers and contributors of these projects.
 

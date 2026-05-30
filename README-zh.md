@@ -123,7 +123,7 @@ outside_index_root=./assets/outside_indices
 
 RVC需要其他一些预模型来推理和训练。
 
-你可以从 `https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main` 下载到这些模型。
+你可以从 <https://huggingface.co/lj1995/VoiceConversionWebUI/tree/main> 下载到这些模型。
 
 ### 1. 下载 assets
 
@@ -253,10 +253,10 @@ Retrieval-based-Voice-Conversion-WebUI/
 本项目使用了以下开源项目的代码和思想：
 
 - **Edge TTS**
-  `https://github.com/rany2/edge-tts`
+  <https://github.com/rany2/edge-tts>
 
 - **检索式语音转换 (RVC)**
-  `https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI`
+  <https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI>
 
 向这些项目的开发者和贡献者致以诚挚的感谢。
 
