@@ -1,17 +1,67 @@
-.venv
+# Operating system files
+.DS_Store
+Thumbs.db
+.Spotlight-V100/
+.Trashes/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Project outputs and logs
+/logs
+/output/
+*.log
 run.sh
 
-# 模型和权重文件
+# Model and inference assets
 /pretrained
 /pretrained_v2
 /uvr5_weights
+/weights
+/assets/weights/*
 hubert_base.pt
 rmvpe.onnx
 rmvpe.pt
-/logs
-/weights
-/assets/weights/*
+logs
+weights
+outputs
+assets/weights
 
-# 工具文件
+
+# Bundled helper binaries
 ffmpeg.*
 ffprobe.*
+
+# Local project folders
+issues
+docs
+examples
+tests
