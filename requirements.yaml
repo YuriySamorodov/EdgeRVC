@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - python=3.10
-  - pip
+  - pip<24.1
   # Runtime/system libs commonly needed by audio Python packages.
   - ffmpeg
   - libsndfile
